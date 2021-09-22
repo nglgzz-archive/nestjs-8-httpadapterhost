@@ -7,6 +7,12 @@
     "build": "tsc",
     "start": "npm run build && node ./bin/run"
   },
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.6",
+    "@nestjs/core": "^8.0.6",
+    "@nestjs/graphql": "^9.0.4",
+    "@nestjs/platform-express": "^8.0.6"
+  },
   "dependencies": {
     "@nestjs/common": "8.0.6",
     "@nestjs/core": "8.0.6",
