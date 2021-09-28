@@ -12,9 +12,6 @@
     "@nestjs/platform-express": "^8.0.6"
   },
   "dependencies": {
-    "@nestjs/common": "8.0.6",
-    "@nestjs/core": "8.0.6",
-    "@nestjs/platform-express": "8.0.6",
     "package-a": "file:../package-a",
     "reflect-metadata": "0.1.13",
     "rxjs": "7.3.0",
